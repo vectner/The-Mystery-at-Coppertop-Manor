@@ -1,1 +1,93 @@
-
+{
+  "name": "pla01-tmacm",
+  "title": "The Mystery at Coppertop Manor",
+  "description": "A mysterious plague has struck the town of Glister and now bodies have gone missing from the local cemetery! The grave keeper has noticed strange lights at the abandoned manor on the hill. Can the adventurers stop the plague and solve the mystery at Coppertop Manor?\n\nA Two to Four Hour Adventure for Tier 1 Characters. Optimized for APL 3\nPart 1 of the Plaguestone Trilogy",
+  "version": "1.0.0",
+  "minimumCoreVersion": "0.8.6",
+  "compatibleCoreVersion": "10",
+  "compatibility": {
+    "minimum": "0.8.6",
+    "verified": "10",
+    "maximum": "10"
+  },
+  "author": "Ed Stevens",
+  "authors": [
+    {
+      "name": "Ed Stevens"
+    }
+  ],
+  "packs": [
+    {
+      "name": "maps",
+      "label": "The Mystery at Coppertop Manor",
+      "path": "/packs/maps.db",
+      "entity": "Scene",
+      "type": "Scene"
+    },
+    {
+      "name": "actors",
+      "label": "The Mystery at Coppertop Manor",
+      "path": "/packs/actors.db",
+      "entity": "Actor",
+      "type": "Actor"
+    },
+    {
+      "name": "journals",
+      "label": "The Mystery at Coppertop Manor",
+      "path": "/packs/journals.db",
+      "entity": "JournalEntry",
+      "type": "JournalEntry"
+    },
+    {
+      "name": "items",
+      "label": "The Mystery at Coppertop Manor",
+      "path": "/packs/items.db",
+      "entity": "Item",
+      "type": "Item"
+    },
+    {
+      "name": "rolltables",
+      "label": "The Mystery at Coppertop Manor",
+      "path": "/packs/rolltables.db",
+      "entity": "RollTable",
+      "type": "RollTable"
+    },
+    {
+      "name": "macros",
+      "label": "The Mystery at Coppertop Manor",
+      "path": "/packs/macros.db",
+      "entity": "Macro",
+      "type": "Macro"
+    },
+    {
+      "name": "playlists",
+      "label": "The Mystery at Coppertop Manor",
+      "path": "/packs/playlists.db",
+      "entity": "Playlist",
+      "type": "Playlist"
+    }
+  ],
+  "esmodules": [
+    "./scripts/init.js"
+  ],
+  "dependencies": [
+    {
+      "name": "scene-packer",
+      "manifest": "https://github.com/League-of-Foundry-Developers/scene-packer/releases/latest/download/module.json",
+      "type": "module"
+    }
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "scene-packer",
+        "type": "module",
+        "manifest": "https://github.com/League-of-Foundry-Developers/scene-packer/releases/latest/download/module.json"
+      }
+    ]
+  },
+  "url": "https://github.com/vectner/The-Mystery-at-Coppertop-Manor/blob/6db8d830f5e5452b7915b482b9b254d1e632d9e7/module.json",
+  "manifest": "",
+  "download": "",
+  "manifestPlusVersion": "1.2.0"
+}
