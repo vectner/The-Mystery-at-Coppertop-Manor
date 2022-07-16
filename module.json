@@ -87,7 +87,7 @@
     ]
   },
   "url": "https://github.com/vectner/The-Mystery-at-Coppertop-Manor",
-  "manifest": "",
+  "manifest": "https://github.com/vectner/The-Mystery-at-Coppertop-Manor/latest/releases/download/module.json",
   "download": "",
   "manifestPlusVersion": "1.2.0"
 }
