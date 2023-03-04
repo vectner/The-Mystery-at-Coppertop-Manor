@@ -1,16 +1,12 @@
 {
-  "name": "pla01-tmacm",
+  "id": "pla01-tmacm",    
   "title": "The Mystery at Coppertop Manor",
   "description": "A mysterious plague has struck the town of Glister and now bodies have gone missing from the local cemetery! The grave keeper has noticed strange lights at the abandoned manor on the hill. Can the adventurers stop the plague and solve the mystery at Coppertop Manor?\n\nA Two to Four Hour Adventure for Tier 1 Characters. Optimized for APL 3\nPart 1 of the Plaguestone Trilogy",
-  "version": "1.0.4",
-  "minimumCoreVersion": "0.8.6",
-  "compatibleCoreVersion": "10",
+  "version": "1.2.0",
   "compatibility": {
-    "minimum": "0.8.6",
-    "verified": "10",
-    "maximum": "10"
-  },
-  "author": "Ed Stevens",
+      "minimum":9,
+      "verified":10
+   },
   "authors": [
     {
       "name": "Ed Stevens"
@@ -20,51 +16,66 @@
     {
       "name": "maps",
       "label": "The Mystery at Coppertop Manor",
+      "system": "dnd5e",
       "path": "/packs/maps.db",
-      "entity": "Scene",
-      "type": "Scene"
+      "type": "Scene",
+      "private": false,
+      "flags": {}
     },
     {
       "name": "actors",
       "label": "The Mystery at Coppertop Manor",
+      "system": "dnd5e",
       "path": "/packs/actors.db",
-      "entity": "Actor",
-      "type": "Actor"
+      "type": "Actor",
+      "private": false,
+      "flags": {}
     },
     {
       "name": "journals",
       "label": "The Mystery at Coppertop Manor",
+      "system": "dnd5e",
       "path": "/packs/journals.db",
-      "entity": "JournalEntry",
-      "type": "JournalEntry"
+      "type": "JournalEntry",
+      "private": false,
+      "flags": {}
     },
     {
       "name": "items",
       "label": "The Mystery at Coppertop Manor",
+      "system": "dnd5e",
       "path": "/packs/items.db",
       "entity": "Item",
-      "type": "Item"
+      "type": "Item",
+      "private": false,
+      "flags": {}
     },
     {
       "name": "rolltables",
       "label": "The Mystery at Coppertop Manor",
       "path": "/packs/rolltables.db",
       "entity": "RollTable",
-      "type": "RollTable"
+      "type": "RollTable",
+      "private": false,
+      "flags": {}
     },
     {
       "name": "macros",
       "label": "The Mystery at Coppertop Manor",
       "path": "/packs/macros.db",
       "entity": "Macro",
-      "type": "Macro"
+      "type": "Macro",
+      "private": false,
+      "flags": {}
     },
     {
       "name": "playlists",
       "label": "The Mystery at Coppertop Manor",
       "path": "/packs/playlists.db",
       "entity": "Playlist",
-      "type": "Playlist"
+      "type": "Playlist",
+      "private": false,
+      "flags": {}
     }
   ],
   "esmodules": [
@@ -86,8 +97,8 @@
       }
     ]
   },
-  "url": "https://www.dmsguild.com/product/403130/CCCPRETZPLA01-The-Mystery-at-Coppertop-Manor-Foundry-Mod",
- "manifest": "https://github.com/vectner/The-Mystery-at-Coppertop-Manor/raw/main/module.json",
+  "url": "https://github.com/vectner/The-Mystery-at-Coppertop-Manor",
+  "manifest": "https://github.com/vectner/The-Mystery-at-Coppertop-Manor/raw/main/module.json",
   "download": "https://github.com/vectner/The-Mystery-at-Coppertop-Manor/releases/latest/download/pla01-tmacm.zip",
   "manifestPlusVersion": "1.2.0"
-}
+ }
